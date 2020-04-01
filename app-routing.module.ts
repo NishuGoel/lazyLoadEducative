@@ -6,7 +6,6 @@ const routes: Routes = [
   {
   path: 'hello',
   loadChildren: () => import('./hello/hello.module').then(mod => mod.HelloModule)
-  // component: HelloComponent
 },
 {
   path: 'main-page',
